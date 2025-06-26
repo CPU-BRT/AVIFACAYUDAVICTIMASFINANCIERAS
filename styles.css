@@ -1621,4 +1621,12 @@ body {
     max-height: 90px !important;
     min-height: 60px !important;
   }
+}
+
+@media (max-width: 991px) {
+  .slider-carrusel-movil-slide video {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
 } 
