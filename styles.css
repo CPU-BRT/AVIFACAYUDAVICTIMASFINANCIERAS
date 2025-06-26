@@ -1600,4 +1600,25 @@ body {
   animation: whatsapp-bounce 1.2s infinite;
   color: #25D366 !important;
   filter: drop-shadow(0 0 6px #25D366);
+}
+
+@media (max-width: 991px) {
+  .slider-carrusel-movil-slide video {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100% !important;
+    max-height: 140px !important;
+    min-height: 100px !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    background: #611232 !important;
+  }
+}
+@media (max-width: 575px) {
+  .slider-carrusel-movil-slide video {
+    max-height: 90px !important;
+    min-height: 60px !important;
+  }
 } 
